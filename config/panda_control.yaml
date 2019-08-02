@@ -15,13 +15,20 @@
             - panda_joint7
 
         gains:
-            panda_joint1: { p: 12000, d: 50, i: 0.0, i_clamp: 10000 }
-            panda_joint2: { p: 30000, d: 100, i: 0.02, i_clamp: 10000 }
-            panda_joint3: { p: 18000, d: 50, i: 0.01, i_clamp: 1 }
-            panda_joint4: { p: 18000, d: 70, i: 0.01, i_clamp: 10000 }
-            panda_joint5: { p: 12000, d: 70, i: 0.01, i_clamp: 1 }
-            panda_joint6: { p: 7000, d: 50, i: 0.01, i_clamp: 1 }
-            panda_joint7: { p: 2000, d: 20, i: 0.0, i_clamp: 1 }
+            #panda_joint1: { p: 12000, d: 50, i: 0.0, i_clamp: 10000 }
+            #panda_joint2: { p: 30000, d: 100, i: 0.02, i_clamp: 10000 }
+            #panda_joint3: { p: 18000, d: 50, i: 0.01, i_clamp: 1 }
+            #panda_joint4: { p: 18000, d: 70, i: 0.01, i_clamp: 10000 }
+            #panda_joint5: { p: 12000, d: 70, i: 0.01, i_clamp: 1 }
+            #panda_joint6: { p: 7000, d: 50, i: 0.01, i_clamp: 1 }
+            #panda_joint7: { p: 2000, d: 20, i: 0.0, i_clamp: 1 }
+            panda_joint1: { p: 18000, d: 100, i: 0.0, i_clamp: 10000 }
+            panda_joint2: { p: 50000, d: 200, i: 0.02, i_clamp: 10000 }
+            panda_joint3: { p: 24000, d: 100, i: 0.01, i_clamp: 1 }
+            panda_joint4: { p: 24000, d: 140, i: 0.01, i_clamp: 10000 }
+            panda_joint5: { p: 18000, d: 140, i: 0.01, i_clamp: 1 }
+            panda_joint6: { p: 10000, d: 300, i: 0.01, i_clamp: 1 }
+            panda_joint7: { p: 3000, d: 350, i: 0.0, i_clamp: 1 }
 
         constraints:
             goal_time: 2.0
@@ -36,8 +43,8 @@
             - panda_probe_cyl_joint
 
         gains:
-            panda_finger_joint1: { p: 5, d: 3.0, i: 0, i_clamp: 1 }
-            panda_finger_joint2: { p: 5, d: 1.0, i: 0, i_clamp: 1 }
+            panda_finger_joint1: { p: 20, d: 5.0, i: 0, i_clamp: 1 }
+            panda_finger_joint2: { p: 20, d: 5.0, i: 0, i_clamp: 1 }
             panda_probe_cyl_joint: { p: 5, d: 1.0, i: 0, i_clamp: 1 }
 
         state_publish_rate: 1000
