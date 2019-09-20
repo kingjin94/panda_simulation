@@ -13,6 +13,9 @@
             - panda_joint5
             - panda_joint6
             - panda_joint7
+            
+        constraints:
+            goal_time: 0.5
 
         gains:
             panda_joint1: { p: 600, d: 25, i: 0.1, i_clamp: 1000 }
@@ -35,6 +38,8 @@
             goal_time: 2.0
 
         state_publish_rate: 1000
+        action_monitor_rate: 100
+        stop_trajectory_duration: 0.2
 
     panda_hand_controller:
         type: effort_controllers/JointTrajectoryController
