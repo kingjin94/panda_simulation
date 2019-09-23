@@ -24,7 +24,7 @@
             panda_joint4: { p: 1600, d: 36, i: 0.7, i_clamp: 1000 }
             panda_joint5: { p: 480, d: 14, i: 0.5, i_clamp: 1000 }
             panda_joint6: { p: 140, d: 5, i: 0.02, i_clamp: 1000 }
-            panda_joint7: { p: 10, d: 0.05, i: 0.001, i_clamp: 1000 }
+            panda_joint7: { p: 25, d: 0.05, i: 0.01, i_clamp: 1000 }
         #velocity_ff:
         #    panda_joint1: 1.0
         #    panda_joint2: 1.0
